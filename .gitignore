@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data and drivers (see data/README.md and jars/README.md)
+data/*
+!data/README.md
+jars/*
+!jars/README.md
+
+# Environment / secrets
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
